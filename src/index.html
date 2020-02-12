@@ -6,12 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Alex Dingal">
-    <meta name="description" content="Landing page project">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link
-        href="https://fonts.googleapis.com/css?family=Mali:700|Merienda:700|Open+Sans:400,700|Roboto:400,700&display=swap"
-        rel="stylesheet">
+    <meta name="description" content="Technical Documentation page project">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/index.css">
     <title>Landing Page</title>
 </head>
@@ -20,18 +16,183 @@
     <div class="container py-5">
         <div class="row">
             <!-- main header -->
-            <div class="col-md-3" id="main-header">
+            <div class="col-md-3 mb-3" id="main-header">
                 <h1 class="text-center">Microsoft Access</h1>
                 <div class="d-flex flex-column">
-                    <a class="btn btn-outline-success mb-1" href="#">Overview</a>
-                    <a class="btn btn-outline-success mb-1" href="#">History</a>
-                    <a class="btn btn-outline-success mb-1" href="#">Uses</a>
-                    <a class="btn btn-outline-success mb-1" href="#">Features</a>
-                    <a class="btn btn-outline-success mb-1" href="#">Reference</a>
+                    <a class="btn btn-outline-success mb-1" href="#Overview">Overview</a>
+                    <a class="btn btn-outline-success mb-1" href="#History">History</a>
+                    <a class="btn btn-outline-success mb-1" href="#Uses">Uses</a>
+                    <a class="btn btn-outline-success mb-1" href="#Features">Features</a>
+                    <a class="btn btn-outline-success mb-1" href="#Reference">Reference</a>
                 </div>
             </div>
             <div class="col-md-9">
-                
+                <section class="main-section p-3 mb-2" id="Overview">
+                    <header>Overview</header> 
+                    <p>Microsoft Access is a database management system (DBMS) from Microsoft that combines the relational
+                        Microsoft Jet Database Engine with a graphical user interface and software-development tools. It is
+                        a member of the Microsoft Office suite of applications, included in the Professional and higher editions
+                        or sold separately.</p>
+
+                    <p>Microsoft Access stores data in its own format based on the Access Jet Database Engine. It can also import
+                        or link directly to data stored in other applications and databases.</p>
+
+                    <p>Software developers, data architects and power users can use Microsoft Access to develop application software.
+                        Like other Microsoft Office applications, Access is supported by Visual Basic for Applications (VBA), an
+                        object-based
+                        programming language that can reference a variety of objects including DAO (Data Access Objects), ActiveX Data
+                        Objects,
+                        and many other ActiveX components. Visual objects used in forms and reports expose their methods and properties
+                        in the
+                        VBA programming environment, and VBA code modules may declare and call Windows operating system operations.</p>
+                </section>
+
+                <section class="main-section p-4 mb-2" id="History">
+                    <header>History</header> 
+                    <p>Prior to the introduction of Access, Borland (with Paradox and dBase) and Fox (with FoxPro) dominated the desktop
+                        database
+                        market. Microsoft Access was the first mass-market database program for Windows. With Microsoft's purchase of
+                        FoxPro in 1992
+                        and the incorporation of Fox's Rushmore query optimization routines into Access, Microsoft Access quickly became
+                        the dominant
+                        database for Windows - effectively eliminating the competition which failed to transition from the MS-DOS world.
+                    </p>
+
+                    <h3>Timeline</h3>
+                    <ul>
+                        <li>1992: Microsoft released Access version 1.0 on November 13, 1992, and an Access 1.1 release in May 1993 to
+                            improve compatibility
+                            with other Microsoft products and to include the Access Basic programming language.</li>
+
+                        <li>1994: Microsoft specified the minimum hardware requirements for Access v2.0 as: Microsoft Windows v3.1 with
+                            4 MB of RAM required,
+                            6 MB RAM recommended; 8 MB of available hard disk space required, 14 MB hard disk space recommended. The
+                            product shipped on seven
+                            1.44 MB diskettes. The manual shows a 1994 copyright date.</li>
+
+                        <li>With Office 95, Microsoft Access 7.0 (a.k.a. "Access 95") became part of the Microsoft Office Professional
+                            Suite, joining Microsoft
+                            Excel, Word, and PowerPoint and transitioning from Access Basic to VBA. Since then, Microsoft has released
+                            new versions of Microsoft
+                            Access with each release of Microsoft Office. This includes Access 97 (version 8.0), Access 2000 (version
+                            9.0), Access 2002 (version 10.0),
+                            Access 2003 (version 11.5), Access 2007 (version 12.0), Access 2010 (version 14.0), and Access 2013 (version
+                            15.0).</li>
+
+                        <li>Versions 3.0 and 3.5 of Microsoft Jet database engine (used by Access 7.0 and the later-released Access 97
+                            respectively) had a critical
+                            issue which made these versions of Access unusable on a computer with more than 1 GB of memory.[22] While
+                            Microsoft fixed this problem for
+                            Jet 3.5/Access 97 post-release, it never fixed the issue with Jet 3.0/Access 95.</li>
+
+                        <li>The native Access database format (the Jet MDB Database) has also evolved over the years. Formats include
+                            Access 1.0, 1.1, 2.0, 7.0, 97,
+                            2000, 2002, and 2007. The most significant transition was from the Access 97 to the Access 2000 format;
+                            which is not backward compatible with
+                            earlier versions of Access. As of 2011 all newer versions of Access support the Access 2000 format. New
+                            features were added to the Access 2002
+                            format which can be used by Access 2002, 2003, 2007, and 2010.</li>
+
+                        <li>Microsoft Access 2000 increased the maximum database size to 2GB from 1GB in Access 97.</li>
+
+                        <li>Microsoft Access 2007 introduced a new database format: ACCDB. It supports links to SharePoint lists and
+                            complex data types such as multivalue
+                            and attachment fields. These new field types are essentially recordsets in fields and allow the storage of
+                            multiple values or files in one field.
+                            Microsoft Access 2007 also introduced File Attachment field, which stored data more efficiently than the OLE
+                            (Object Linking and Embedding) field.</li>
+
+                        <li>Microsoft Access 2010 introduced a new version of the ACCDB format supported hosting Access Web solutions on
+                            a SharePoint 2010 server. For the
+                            first time, this allowed Access solutions to be run without having to install Access on their PC and was the
+                            first support of Mac users. Any user
+                            on the SharePoint site with sufficient rights could use the Access Web solution. A copy of Access was still
+                            required for the developer to create
+                            the Access Web solution, and the desktop version of Access remained part of Access 2010. The Access Web
+                            solutions were not the same as the desktop
+                            solutions. Automation was only through the macro language (not VBA) which Access automatically converted to
+                            JavaScript. The data was no longer in
+                            an Access database but SharePoint lists. An Access desktop database could link to the SharePoint data, so
+                            hybrid applications were possible so that
+                            SharePoint users needing basic views and edits could be supported while the more sophisticated, traditional
+                            solutions could remain in the desktop
+                            Access database.</li>
+
+                        <li>Microsoft Access 2013 offers traditional Access desktop solutions plus a significantly updated SharePoint
+                            2013 web solution. The Access Web
+                            model in Access 2010 was replaced by a new architecture that stores its data in actual SQL Server databases.
+                            Unlike SharePoint lists, this offers true
+                            relational database design with referential integrity, scalability, extensibility and performance one would
+                            expect from SQL Server. The database
+                            solutions that can be created on SharePoint 2013 offer a modern user interface designed to display multiple
+                            levels of relationships that can be viewed
+                            and edited, along with resizing for different devices and support for touch. The Access 2013 desktop is
+                            similar to Access 2010 but several features were
+                            discontinued including support for Access Data Projects (ADPs), pivot tables, pivot charts, Access data
+                            collections, source code control, replication,
+                            and other legacy features.[25] Access desktop database maximum size remained 2GB (as it has been since the
+                            2000 version).</li>
+                    </ul>
+                </section>
+
+                <section class="main-section p-4 mb-2" id="Uses">
+                    <header>Uses</header> 
+                    <p>In addition to using its own database storage file, Microsoft Access also may be used as the 'front-end' of a
+                        program while other products act as the
+                        'back-end' tables, such as Microsoft SQL Server and non-Microsoft products such as Oracle and Sybase. Multiple
+                        backend sources can be used by a Microsoft
+                        Access Jet Database (ACCDB and MDB formats). Similarly, some applications such as Visual Basic, ASP.NET, or
+                        Visual Studio .NET will use the Microsoft
+                        Access database format for its tables and queries. Microsoft Access may also be part of a more complex solution,
+                        where it may be integrated with other
+                        technologies such as Microsoft Excel, Microsoft Outlook, Microsoft Word, Microsoft PowerPoint and ActiveX
+                        controls.</p>
+
+                    <p>Access tables support a variety of standard field types, indices, and referential integrity including cascading
+                        updates and deletes. Access also includes
+                        a query interface, forms to display and enter data, and reports for printing. The underlying Jet database, which
+                        contains these objects, is multi-user and
+                        handles record-locking.</p>
+
+                    <p>Repetitive tasks can be automated through macros with point-and-click options. It is also easy to place a
+                        database on a network and have multiple users
+                        share and update data without overwriting each other's work. Data is locked at the record level which is
+                        significantly different from Excel which locks the
+                        entire spreadsheet.</p>
+                </section>
+
+                <section class="main-section p-4 mb-2" id="Features">
+                    <header>Features</header> 
+                    <p>Users can create tables, queries, forms and reports, and connect them together with macros. Advanced users can
+                        use VBA to write rich solutions with advanced
+                        data manipulation and user control. Access also has report creation features that can work with any data source
+                        that Access can access.</p>
+
+                    <p>Sample VBA "hello world" using MsgBox and variable naming convention:</p>
+
+                    <div class="p-2 mb-3">
+                        <code>MsgBox "Hello, world!"</code><br>
+                        <code>Dim strName as String</code><br>
+                        <code>Dim lngPrice as Long</code><br>
+                        <code>Dim boolMarried as Boolean</code><br>
+                        <code>Dim objAccess as Object</code>
+                    </div>
+
+                    <p>The original concept of Access was for end users to be able to access data from any source. Other features
+                        include: the import and export of data to many formats
+                        including Excel, Outlook, ASCII, dBase, Paradox, FoxPro, SQL Server and Oracle. It also has the ability to link
+                        to data in its existing location and use it for
+                        viewing, querying, editing, and reporting. This allows the existing data to change while ensuring that Access
+                        uses the latest data. It can perform heterogeneous
+                        joins between data sets stored across different platforms. Access is often used by people downloading data from
+                        enterprise level databases for manipulation, analysis,
+                        and reporting locally.</p>
+                </section>
+
+                <section class="main-section p-4 mb-2" id="Reference">
+                    <header>Reference</header> 
+                    <p>All content of this page are taken from <a href="https://en.wikipedia.org/wiki/Microsoft_Access" target="_blank">wikipedia</a>.</p>
+                </section>
             </div>
         </div>
     </div>
